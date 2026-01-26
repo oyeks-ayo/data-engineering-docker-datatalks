@@ -1,0 +1,2 @@
+echo 'export PS1="oyeks-ayo $ "' >> ~/.bashrc && source ~/.bashrc
+sed -i '/export PS1="oyeks-ayo/d' ~/.bashrc && echo 'export PS1="\033[1;32moyeks-ayo\033[0m $ "' >> ~/.bashrc && source ~/.bashrc
